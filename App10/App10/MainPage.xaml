@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App10.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:app10="clr-namespace:App10">
+
+    <StackLayout>
+        <Frame
+            Padding="24"
+            BackgroundColor="#2196F3"
+            CornerRadius="0">
+            <Label
+                FontSize="36"
+                HorizontalTextAlignment="Center"
+                Text="Custom ComboBox Dialog"
+                TextColor="White" />
+        </Frame>
+
+        <app10:CustomPicker
+            x:Name="noPicker"
+            Title="번호선택"
+            BackgroundColor="White"
+            HeightRequest="50"
+            Image="arrow"
+            TextColor="Black" />
+    </StackLayout>
+
+</ContentPage>
