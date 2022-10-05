@@ -20,7 +20,7 @@
         <Label Text="Basic Picker" />
         <Picker
             x:Name="noBasicPicker"
-            Title="번호선택"
+            Title="Basic Picker"
             BackgroundColor="White"
             HeightRequest="50"
             TextColor="Black"
@@ -29,7 +29,7 @@
         <Label Text="Custom Picker" />
         <app10:CustomPicker
             x:Name="noPicker"
-            Title="번호선택"
+            Title="Custom Picker"
             BackgroundColor="White"
             HeightRequest="50"
             Image="arrow"
