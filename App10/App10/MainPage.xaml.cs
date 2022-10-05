@@ -12,6 +12,11 @@ namespace App10
             {
                 this.noPicker.Items.Add(i.ToString());
             }
+
+            for (int i = 0; i < 10; i++)
+            {
+                this.noBasicPicker.Items.Add(i.ToString());
+            }
         }
     }
 }

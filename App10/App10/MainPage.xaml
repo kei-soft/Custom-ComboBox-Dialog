@@ -17,6 +17,16 @@
                 TextColor="White" />
         </Frame>
 
+        <Label Text="Basic Picker" />
+        <Picker
+            x:Name="noBasicPicker"
+            Title="번호선택"
+            BackgroundColor="White"
+            HeightRequest="50"
+            TextColor="Black"
+            WidthRequest="80" />
+
+        <Label Text="Custom Picker" />
         <app10:CustomPicker
             x:Name="noPicker"
             Title="번호선택"
@@ -24,6 +34,7 @@
             HeightRequest="50"
             Image="arrow"
             TextColor="Black" />
+
     </StackLayout>
 
 </ContentPage>
